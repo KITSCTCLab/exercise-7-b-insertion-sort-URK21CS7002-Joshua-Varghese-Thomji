@@ -6,9 +6,9 @@ def insertionSort(array) -> List[int]:
     key = array[i]
     j = i-1
     while j>=0 and A[j]>key:
-      A[j+1] = A[j]
+      array[j+1] = array[j]
       j-=1
-    A[j+1] = key
+    array[j+1] = key
 
 # data = [9, 5, 1, 4, 3]
 input_data = input()
